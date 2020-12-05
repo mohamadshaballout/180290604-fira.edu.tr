@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/434337/pexels-photo-434337.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: contain;
+    background-position: center;
+   
+    font-family: sans-serif;}
+.menu{
+    background-color: green;
+    text-align: center;
+    text-transform: capitalize;
+}
+.menu ul{
+    display:inline-flex;
+    list-style: none;
+    color: white;
+    
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 16px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+} 
+.menu ul li:hover{
+    background-color: greenyellow;
+}
+.memu .fa{
+    padding: 12px;
+}
+.sub1{
+    display: none;
+}
+.menu ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background-color: green;
+    margin-top: 15px;
+    margin-left:-15px; 
+}
+.menu ul li:hover .sub1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    }
+.menu ul li:hover .sub1 ul li a:hover{
+    color: darkseagreen;
+}
+.sub2{
+    display: none;
+    }
+.hoverr:hover .sub2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: green;
+    
+}
+.t{
+    background-color: green;
+    background-size: auto;
+    color: white;
+    font-size: 50;
+    font-weight: bolder;
+    padding-left:2rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 30px;
+ 
+    
+}
+.t:hover a{
+    color: white;
+}
+.fet{
+   box-sizing: border-box;
+    padding: 0.3rem;
+    color: green;
+   
+    }
+.fet1{
+    display: flex;
+    padding-top: 0.3em;
+    box-sizing: border-box;
+    text-align: center;
+}
+.fet5{
+padding-left: 525px; 
+    
+    width: auto;
+    border:5em;
+}
+.fet5:hover{
+    color: darkgreen;
+    font-weight: bold;
+    
+}
+
+.menu2{
+    text-align: center;
+    background-color: darkgreen;
+    width: 100%;
+    float:left;
+    padding-left: 0;
+    color: white;
+    height: 150px;
+}
+.menu2 ul{
+    list-style: none;
+    display: inline-flex;
+    color: white;
+    
+}
+.menu2 ul li{
+  
+    margin: 16px;
+    padding: 16px;
+       width: 24px;
+height: 260px;
+color: white;}
+
+.menu3{
+    text-align: center;
+    background-color: green;
+    width: auto;
+    color: white;
+    height: 330px;
+    
+    
+}
+.menu3 ul{
+    display: inline-flex;
+    padding: 50px;
+    margin:auto;color: white;
+}
+.menu3 ul li{
+    
+    margin: 0px;
+    padding: -35px;
+       width: 240px;
+height: 260px;
+color: white;
+}
+#ta2{
+    padding-left: 80;
+    color: white;
+}
+#ta2  td{
+    padding-right: 2em;
+    text-align: center;
+  color: white;
+    padding-top: 30;
+    
+}
+#frame{
+    padding-left:255 
+}

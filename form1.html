@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form1.css">
+    
+    
+    </head>
+<body>
+ <center>  <form action="process.php" method="get">
+   
+     <fieldset><legend>Rigister</legend> <p><label for="username"> user name:</label> <input type="text" name ="username" required placeholder="name"></p>
+      <p><label for="second name">surname </label> <input type="text" name ="surname" required placeholder="surname"></p>
+     <p><label for="password"> password:</label> <input type="password" name="password" required placeholder="tape password"></p>
+         <p>birth date: <input type="date" required></p>
+     <p>gender: </p>
+     <p><label for="male"> male</label> <input type="radio" name ="gender" value="male" id="male" ><label for="female"> female</label> <input type="radio" name ="gender" value="female" id="female" ></p>
+<p> <label for="country">Country: </label><select name="country" onclick="">
+     <option value="0" ></option>
+    <option value="1">turkey</option>
+     <option value="2">Germany</option>
+     <option value="3">USA</option>
+     <option value="4">UAE</option>
+     <option value="5">UK</option>
+     <option value="6">Eygpt</option>
+     
+     </select></p>
+     <P> <input type="checkbox" name="terms" value="a"><label for="a">
+I agree to share my information with the site administration</label>
+     </P>
+     <P> <input type="checkbox" name="terms" value="b"><label for="b">
+All information I entered is correct</label>
+     </P>
+         <p><button type="submit">Register</button></p>
+   </fieldset> </form>
+    </center> 
+    
+    </body>
+
+
+</html>
