@@ -9,12 +9,12 @@ body{
     background-position: center;
    
     font-family: sans-serif;}
-#logo{
+#logo {
   display: inline;
-  margin: 15px; 
+  margin: 15px; /* margin: 20px was off */
   float: left;
   height: 60px;
-  width: auto; 
+  width: auto; /* correct proportions to specified height */
   border-radius: 50%; /* makes it a circle */
 }
 .menu{
@@ -61,6 +61,14 @@ body{
     width: 150px;
     padding: 10px;
     border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    }
+.menu ul li:hover .sub1 ul li:last-child{
+    width: 150px;
+    padding: 10px;
+    border-bottom-style: hidden;
     background: transparent;
     border-radius: 0;
     text-align: left;
