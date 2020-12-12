@@ -9,6 +9,14 @@ body{
     background-position: center;
    
     font-family: sans-serif;}
+#logo {
+  display: inline;
+  margin: 15px; /* margin: 20px was off */
+  float: left;
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
 .menu{
     background-color: green;
     text-align: center;
