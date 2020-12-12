@@ -11,10 +11,10 @@ body{
     font-family: sans-serif;}
 #logo {
   display: inline;
-  margin: 15px; /* margin: 20px was off */
+  margin: 15px; 
   float: left;
   height: 60px;
-  width: auto; /* correct proportions to specified height */
+  width: auto; 
   border-radius: 50%; /* makes it a circle */
 }
 .menu{
